@@ -23,7 +23,7 @@ Revision of project deployment using maven and tomcat
    cd bin
    chmod +x *.sh
    ./startup.sh
-   
+#run startup.sh to start service   
 4) now we need to move the war file which we created in step1 to webapps directory of tomcat 
    mv /home/ubuntu/addressbook-cicd-project/target/addressbook.war /home/ubuntu/apache-tomcat-8.5.100/webapps
    
